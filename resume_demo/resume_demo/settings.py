@@ -38,8 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    "main",
-    "ckeditor",
+    'main',
+    'ckeditor',
    
 ]
 
@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'resume.urls'
+ROOT_URLCONF = 'resume_demo.urls'
 
 TEMPLATES = [
     {
@@ -66,13 +66,13 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'resume.context_processors.project_context'
+                'resume_demo.context_processors.project_context'
             ],
         },
     },
 ]
 
-WSGI_APPLICATION = 'resume.wsgi.application'
+WSGI_APPLICATION = 'resume_demo.wsgi.application'
 
 
 # Database
